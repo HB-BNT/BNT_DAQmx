@@ -48,7 +48,9 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
 		<Item Name="Action" Type="Folder">
+			<Item Name="Set Output Line Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV Messages/Set Output Line Msg/Set Output Line Msg.lvclass"/>
 			<Item Name="Set Output Lines Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV Messages/Set Output Lines Msg/Set Output Lines Msg.lvclass"/>
+			<Item Name="Set Output Voltage Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV Messages/Set Output Voltage Msg/Set Output Voltage Msg.lvclass"/>
 			<Item Name="Set Output Voltages Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV Messages/Set Output Voltages Msg/Set Output Voltages Msg.lvclass"/>
 		</Item>
 		<Item Name="Readout Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV Messages/Readout Msg/Readout Msg.lvclass"/>
