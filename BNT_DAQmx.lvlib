@@ -55,6 +55,9 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 		</Item>
 		<Item Name="Readout Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV Messages/Readout Msg/Readout Msg.lvclass"/>
 	</Item>
+	<Item Name="Test" Type="Folder">
+		<Item Name="FP-BoundSV.vi" Type="VI" URL="../Test/FP-BoundSV.vi"/>
+	</Item>
 	<Item Name="BNT_DAQmx-MCSV.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV/BNT_DAQmx-MCSV.lvclass"/>
 	<Item Name="BNT_DAQmx.ini" Type="Document" URL="../BNT_DAQmx.ini"/>
 </Library>
