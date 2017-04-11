@@ -60,7 +60,7 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 		<Item Name="FP-BoundSV.vi" Type="VI" URL="../Test/FP-BoundSV.vi"/>
 	</Item>
 	<Item Name="BNT_DAQmx-MCSV.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV/BNT_DAQmx-MCSV.lvclass"/>
-	<Item Name="BNT_DMQmx-MCSV-RTD.lvclass" Type="LVClass" URL="../BNT_DMQmx-MCSV-RTD/BNT_DMQmx-MCSV-RTD.lvclass"/>
-	<Item Name="BNT_DMQmx-MCSV-TC.lvclass" Type="LVClass" URL="../BNT_DMQmx-MCSV-TC/BNT_DMQmx-MCSV-TC.lvclass"/>
+	<Item Name="BNT_DAQmx-MCSV-RTD.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-RTD/BNT_DAQmx-MCSV-RTD.lvclass"/>
+	<Item Name="BNT_DAQmx-MCSV-TC.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-TC/BNT_DAQmx-MCSV-TC.lvclass"/>
 	<Item Name="BNT_DAQmx.ini" Type="Document" URL="../BNT_DAQmx.ini"/>
 </Library>
