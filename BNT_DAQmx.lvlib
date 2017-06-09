@@ -58,9 +58,17 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Item Name="FP-BoundSV.vi" Type="VI" URL="../Test/FP-BoundSV.vi"/>
+		<Item Name="Test Counter.vi" Type="VI" URL="../Test/Test Counter.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Boolean Channel PV.ctl" Type="VI" URL="../Typedefs/Boolean Channel PV.ctl"/>
+		<Item Name="Double Channel PV.ctl" Type="VI" URL="../Typedefs/Double Channel PV.ctl"/>
 	</Item>
 	<Item Name="BNT_DAQmx-MCSV.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV/BNT_DAQmx-MCSV.lvclass"/>
 	<Item Name="BNT_DAQmx-MCSV-RTD.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-RTD/BNT_DAQmx-MCSV-RTD.lvclass"/>
 	<Item Name="BNT_DAQmx-MCSV-TC.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-TC/BNT_DAQmx-MCSV-TC.lvclass"/>
 	<Item Name="BNT_DAQmx.ini" Type="Document" URL="../BNT_DAQmx.ini"/>
+	<Item Name="Double Array PV.ctl" Type="VI" URL="../Typedefs/Double Array PV.ctl"/>
+	<Item Name="Boolean Array PV.ctl" Type="VI" URL="../Typedefs/Boolean Array PV.ctl"/>
 </Library>
