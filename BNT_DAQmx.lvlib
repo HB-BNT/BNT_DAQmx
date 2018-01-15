@@ -65,6 +65,9 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 		<Item Name="Boolean Channel PV.ctl" Type="VI" URL="../Typedefs/Boolean Channel PV.ctl"/>
 		<Item Name="Double Channel PV.ctl" Type="VI" URL="../Typedefs/Double Channel PV.ctl"/>
 	</Item>
+	<Item Name="Data" Type="Folder">
+		<Item Name="BNT_DAQmx-MCSV-Data.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-Data/BNT_DAQmx-MCSV-Data.lvclass"/>
+	</Item>
 	<Item Name="BNT_DAQmx-MCSV.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV/BNT_DAQmx-MCSV.lvclass"/>
 	<Item Name="BNT_DAQmx-MCSV-RTD.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-RTD/BNT_DAQmx-MCSV-RTD.lvclass"/>
 	<Item Name="BNT_DAQmx-MCSV-TC.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-TC/BNT_DAQmx-MCSV-TC.lvclass"/>
