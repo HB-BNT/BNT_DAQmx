@@ -120,16 +120,16 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 		</Item>
 	</Item>
 	<Item Name="protected" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Initialize Attributes.vi" Type="VI" URL="../Initialize Attributes.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:'&lt;X6O:$]!!%R!=!!?!!!M$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9BJ#4F2@2%&amp;2&lt;8AN45.46CV36%1O&lt;(:D&lt;'&amp;T=Q!!&amp;5*/6&amp;^%46&amp;N?#V.1V.7,62$)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!5QZ"&gt;(2S;7*V&gt;'5A2'&amp;U91!!4%"Q!"Y!!#Q01EZ58U2"57VY,GRW&lt;'FC'E*/6&amp;^%16&amp;N?#V.1V.7,6*52#ZM&gt;G.M98.T!!!51EZ58U2.57VY,5V$5V9N6%-A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!#1!!!!!!!!!*!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#3!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:'&lt;X6O:$]!!%R!=!!?!!!M$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9BJ#4F2@2%&amp;2&lt;8AN45.46CV36%1O&lt;(:D&lt;'&amp;T=Q!!&amp;5*/6&amp;^%46&amp;N?#V.1V.7,62$)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!5QZ"&gt;(2S;7*V&gt;'5A2'&amp;U91!!4%"Q!"Y!!#Q01EZ58U2"57VY,GRW&lt;'FC'E*/6&amp;^%16&amp;N?#V.1V.7,6*52#ZM&gt;G.M98.T!!!51EZ58U2.57VY,5V$5V9N6%-A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!#1!!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#3!!!!!!%!#A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Initialize AI Task.vi" Type="VI" URL="../Initialize AI Task.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;@!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Y!.`````]!#2=!A!!!!!!"!!1!!!!"!!!!!!!!!$B!=!!6"&amp;2B=WM!!!%!"16/352"52=!A!!!!!!"!!1!!!!"!!!!!!!!$5&amp;*)%2"57VY)&amp;2B=WM!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"-1(!!(A!!,!^#4F2@2%&amp;2&lt;8AO&lt;(:M;7);1EZ58U2"57VY,5V$5V9N5F2%,GRW9WRB=X-!!"2#4F2@2%V2&lt;8AN45.46CV51S"J&lt;A!!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
@@ -139,6 +139,7 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Revision Query Core.vi" Type="VI" URL="../Revision Query Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'E!Q`````R&amp;';8*N&gt;W&amp;S:3"3:8:J=WFP&lt;A!91$$`````$U2S;8:F=C"3:8:J=WFP&lt;A"/1(!!(A!!,!^#4F2@2%&amp;2&lt;8AO&lt;(:M;7);1EZ58U2"57VY,5V$5V9N5F2%,GRW9WRB=X-!!":#4F2@2%&amp;2&lt;8AN45.46CV36%1A&lt;X6U!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"-1(!!(A!!,!^#4F2@2%&amp;2&lt;8AO&lt;(:M;7);1EZ58U2"57VY,5V$5V9N5F2%,GRW9WRB=X-!!"6#4F2@2%&amp;2&lt;8AN45.46CV36%1A;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!(!!E$!!"Y!!!.#!!!#1!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!+!!!!!!</Property>
@@ -148,6 +149,7 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 </LVClass>

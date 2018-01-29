@@ -108,13 +108,13 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Initialize Attributes.vi" Type="VI" URL="../Initialize Attributes.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;R!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:'&lt;X6O:$]!!%J!=!!?!!!L$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9BF#4F2@2%&amp;2&lt;8AN45.46CV51SZM&gt;G.M98.T!"6#4F2@2%V2&lt;8AN45.46CV51S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51&amp;-/182U=GFC&gt;82F)%2B&gt;'%!!%J!=!!?!!!L$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9BF#4F2@2%&amp;2&lt;8AN45.46CV51SZM&gt;G.M98.T!"2#4F2@2%V2&lt;8AN45.46CV51S"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!*!!!!!!!!!!E!!!#*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*)!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;R!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:'&lt;X6O:$]!!%J!=!!?!!!L$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9BF#4F2@2%&amp;2&lt;8AN45.46CV51SZM&gt;G.M98.T!"6#4F2@2%V2&lt;8AN45.46CV51S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51&amp;-/182U=GFC&gt;82F)%2B&gt;'%!!%J!=!!?!!!L$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9BF#4F2@2%&amp;2&lt;8AN45.46CV51SZM&gt;G.M98.T!"2#4F2@2%V2&lt;8AN45.46CV51S"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!*!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*)!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Initialize AI Task.vi" Type="VI" URL="../Initialize AI Task.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Y!.`````]!#2=!A!!!!!!"!!1!!!!"!!!!!!!!!$B!=!!6"&amp;2B=WM!!!%!"16/352"52=!A!!!!!!"!!1!!!!"!!!!!!!!$5&amp;*)%2"57VY)&amp;2B=WM!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"+1(!!(A!!+Q^#4F2@2%&amp;2&lt;8AO&lt;(:M;7):1EZ58U2"57VY,5V$5V9N6%-O&lt;(:D&lt;'&amp;T=Q!51EZ58U2.57VY,5V$5V9N6%-A;7Y!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
