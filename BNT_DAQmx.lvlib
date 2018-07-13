@@ -57,6 +57,8 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 			<Item Name="Set Ratios Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-DOPWM Messages/Set Ratios Msg/Set Ratios Msg.lvclass"/>
 			<Item Name="Set Delay Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-DOPWM Messages/Set Delay Msg/Set Delay Msg.lvclass"/>
 			<Item Name="Set Delays Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-DOPWM Messages/Set Delays Msg/Set Delays Msg.lvclass"/>
+			<Item Name="Set Length Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-DOPWM Messages/Set Length Msg/Set Length Msg.lvclass"/>
+			<Item Name="Set Lengths Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-DOPWM Messages/Set Lengths Msg/Set Lengths Msg.lvclass"/>
 		</Item>
 		<Item Name="Readout Msg.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV Messages/Readout Msg/Readout Msg.lvclass"/>
 	</Item>
