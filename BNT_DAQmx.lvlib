@@ -83,4 +83,5 @@ Asternweg 12a, 64291 Darmstadt, Germany</Property>
 	<Item Name="BNT_DAQmx.ini" Type="Document" URL="../BNT_DAQmx.ini"/>
 	<Item Name="Double Array PV.ctl" Type="VI" URL="../Typedefs/Double Array PV.ctl"/>
 	<Item Name="Boolean Array PV.ctl" Type="VI" URL="../Typedefs/Boolean Array PV.ctl"/>
+	<Item Name="BNT_DAQmx-MCSV-I.lvclass" Type="LVClass" URL="../BNT_DAQmx-MCSV-I/BNT_DAQmx-MCSV-I.lvclass"/>
 </Library>
