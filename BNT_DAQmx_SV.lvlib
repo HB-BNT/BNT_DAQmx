@@ -14,7 +14,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="myDAQ_Activate" Type="Variable">
+	<Item Name="BNTDAQmx_Activate" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -25,10 +25,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI" Type="Variable">
+	<Item Name="BNTDAQmx_AI" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -39,10 +40,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!#!!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI0" Type="Variable">
+	<Item Name="BNTDAQmx_AI_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -53,10 +55,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI1" Type="Variable">
+	<Item Name="BNTDAQmx_AI_1" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -67,24 +70,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="myDAQ_AI2" Type="Variable">
-		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
-		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">True</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI3" Type="Variable">
+	<Item Name="BNTDAQmx_AI_2" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -95,10 +85,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI4" Type="Variable">
+	<Item Name="BNTDAQmx_AI_3" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -109,10 +100,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI5" Type="Variable">
+	<Item Name="BNTDAQmx_AI_4" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -123,10 +115,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI6" Type="Variable">
+	<Item Name="BNTDAQmx_AI_5" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -137,10 +130,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AI7" Type="Variable">
+	<Item Name="BNTDAQmx_AI_6" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -151,10 +145,26 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AO" Type="Variable">
+	<Item Name="BNTDAQmx_AI_7" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_AO" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -165,10 +175,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!#!!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AO0" Type="Variable">
+	<Item Name="BNTDAQmx_AO_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -179,10 +190,26 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_AO_1" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_AO1" Type="Variable">
+	<Item Name="BNTDAQmx_Counter" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -193,10 +220,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!#!!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Counter" Type="Variable">
+	<Item Name="BNTDAQmx_Counter_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -207,24 +235,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Counter0" Type="Variable">
-		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
-		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="myDAQ_DI" Type="Variable">
+	<Item Name="BNTDAQmx_DI" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -235,10 +250,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#0A!!!#!!A!!!!!!#!!R!)1&gt;#&lt;W^M:7&amp;O!"Z!1!!"`````Q!!%%&amp;S=G&amp;Z)'^G)%*P&lt;WRF97Y!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI0" Type="Variable">
+	<Item Name="BNTDAQmx_DI_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -249,10 +265,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI1" Type="Variable">
+	<Item Name="BNTDAQmx_DI_1" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -263,10 +280,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI2" Type="Variable">
+	<Item Name="BNTDAQmx_DI_2" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -277,10 +295,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI3" Type="Variable">
+	<Item Name="BNTDAQmx_DI_3" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -291,10 +310,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI4" Type="Variable">
+	<Item Name="BNTDAQmx_DI_4" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -305,10 +325,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI5" Type="Variable">
+	<Item Name="BNTDAQmx_DI_5" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -319,10 +340,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI6" Type="Variable">
+	<Item Name="BNTDAQmx_DI_6" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -333,10 +355,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DI7" Type="Variable">
+	<Item Name="BNTDAQmx_DI_7" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -347,10 +370,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO" Type="Variable">
+	<Item Name="BNTDAQmx_DO" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -361,10 +385,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#0A!!!#!!A!!!!!!#!!R!)1&gt;#&lt;W^M:7&amp;O!"Z!1!!"`````Q!!%%&amp;S=G&amp;Z)'^G)%*P&lt;WRF97Y!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO0" Type="Variable">
+	<Item Name="BNTDAQmx_DO_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -375,24 +400,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="myDAQ_DO1" Type="Variable">
-		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
-		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">True</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO2" Type="Variable">
+	<Item Name="BNTDAQmx_DO_1" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -403,10 +415,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO3" Type="Variable">
+	<Item Name="BNTDAQmx_DO_2" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -417,10 +430,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO4" Type="Variable">
+	<Item Name="BNTDAQmx_DO_3" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -431,10 +445,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO5" Type="Variable">
+	<Item Name="BNTDAQmx_DO_4" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -445,10 +460,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO6" Type="Variable">
+	<Item Name="BNTDAQmx_DO_5" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -459,10 +475,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DO7" Type="Variable">
+	<Item Name="BNTDAQmx_DO_6" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -473,10 +490,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_DriverRevision" Type="Variable">
+	<Item Name="BNTDAQmx_DO_7" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -487,10 +505,26 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_DriverRevision" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#!!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_ErrorCode" Type="Variable">
+	<Item Name="BNTDAQmx_ErrorCode" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -501,10 +535,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!#!!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_ErrorMessage" Type="Variable">
+	<Item Name="BNTDAQmx_ErrorMessage" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -515,10 +550,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#!!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_FirmwareRevision" Type="Variable">
+	<Item Name="BNTDAQmx_FirmwareRevision" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -529,10 +565,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#!!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_PollingCounter" Type="Variable">
+	<Item Name="BNTDAQmx_PollingCounter" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -543,10 +580,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!#!!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_PollingDeltaT" Type="Variable">
+	<Item Name="BNTDAQmx_PollingDeltaT" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -557,10 +595,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_PollingInterval" Type="Variable">
+	<Item Name="BNTDAQmx_PollingInterval" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -571,10 +610,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_PollingIterations" Type="Variable">
+	<Item Name="BNTDAQmx_PollingIterations" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -585,10 +625,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!#!!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_PollingMode" Type="Variable">
+	<Item Name="BNTDAQmx_PollingMode" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -599,10 +640,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!#!!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_PollingTime" Type="Variable">
+	<Item Name="BNTDAQmx_PollingTime" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -613,10 +655,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Reset" Type="Variable">
+	<Item Name="BNTDAQmx_Reset" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -627,10 +670,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_ResourceName" Type="Variable">
+	<Item Name="BNTDAQmx_ResourceName" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -641,10 +685,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#!!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_SelfTest" Type="Variable">
+	<Item Name="BNTDAQmx_SelfTest" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -655,10 +700,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_SelftestResultCode" Type="Variable">
+	<Item Name="BNTDAQmx_SelftestResultCode" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -669,10 +715,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!#!!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_SelftestResultMessage" Type="Variable">
+	<Item Name="BNTDAQmx_SelftestResultMessage" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -683,10 +730,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#!!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-AO" Type="Variable">
+	<Item Name="BNTDAQmx_Set-AO" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -697,10 +745,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!#!!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-AO_0" Type="Variable">
+	<Item Name="BNTDAQmx_Set-AO_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -711,10 +760,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO" Type="Variable">
+	<Item Name="BNTDAQmx_Set-AO_1" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -725,10 +775,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO_0" Type="Variable">
+	<Item Name="BNTDAQmx_Set-AOi" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -738,11 +789,14 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Channel PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Channel PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!#!!A!!!!!!$!!N!#A!&amp;6G&amp;M&gt;75!$5!$!!&gt;$;'&amp;O&lt;G6M!%Q!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B6%&lt;X6C&lt;'5A1WBB&lt;GZF&lt;#"16CZD&gt;'Q!(E"1!!)!!!!"$E2C&lt;#"$;'&amp;O&lt;G6M)&amp;"7!!!"!!)!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO_1" Type="Variable">
+	<Item Name="BNTDAQmx_Set-AOiA" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -752,11 +806,14 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Array PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Array PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#7EA!!!#!!A!!!!!!%!!N!#A!&amp;6G&amp;M&gt;75!&amp;%"!!!(`````!!!'6G&amp;M&gt;76T!!!21!-!#V.U98*U)%FO:'6Y!%I!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B.%&lt;X6C&lt;'5A18*S98EA5&amp;9O9X2M!"Z!5!!#!!%!!AZ%9GQA1WBB&lt;GZF&lt;#"16A!!!1!$!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO_2" Type="Variable">
+	<Item Name="BNTDAQmx_Set-DO" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -767,10 +824,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#0A!!!#!!A!!!!!!#!!R!)1&gt;#&lt;W^M:7&amp;O!"Z!1!!"`````Q!!%%&amp;S=G&amp;Z)'^G)%*P&lt;WRF97Y!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO_3" Type="Variable">
+	<Item Name="BNTDAQmx_Set-DO_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -781,24 +839,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="myDAQ_Set-DO_4" Type="Variable">
-		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
-		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO_5" Type="Variable">
+	<Item Name="BNTDAQmx_Set-DO_1" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -809,10 +854,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO_6" Type="Variable">
+	<Item Name="BNTDAQmx_Set-DO_2" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -823,10 +869,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DO_7" Type="Variable">
+	<Item Name="BNTDAQmx_Set-DO_3" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -837,10 +884,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-DOi" Type="Variable">
+	<Item Name="BNTDAQmx_Set-DO_4" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -851,10 +899,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!#!!A!!!!!!"!!1!5Q!"!!!A!)!!!!!!!1!%!!!!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-PollingInterval" Type="Variable">
+	<Item Name="BNTDAQmx_Set-DO_5" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -865,10 +914,90 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-DO_6" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-DO_7" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-DOi" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Boolean Channel PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Boolean Channel PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"\&gt;Q!!!#!!A!!!!!!$!!J!)16797RV:1!,1!-!"%RJ&lt;G5!!%U!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B:#&lt;W^M:7&amp;O)%.I97ZO:7QA5&amp;9O9X2M!"Z!5!!#!!!!!1^#&lt;W^M:7&amp;O)%.I97ZO:7Q!!1!#!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-DOiA" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Boolean Array PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Boolean Array PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#7EA!!!#!!A!!!!!!%!!J!)16797RV:1!51%!!!@````]!!!:797RV:8-!!"&amp;!!Q!,5X2B=H1A37ZE:8A!3Q$R!!!!!!!!!!)01EZ58U2"57VY,GRW&lt;'FC&amp;%*P&lt;WRF97YA18*S98EA5&amp;9O9X2M!"Z!5!!#!!%!!A^#&lt;W^M:7&amp;O)%.I97ZO:7Q!!1!$!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PollingInterval" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#!!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-PollingIterations" Type="Variable">
+	<Item Name="BNTDAQmx_Set-PollingIterations" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -879,10 +1008,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!#!!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQ_Set-PollingStartStop" Type="Variable">
+	<Item Name="BNTDAQmx_Set-PollingStartStop" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -893,10 +1023,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQProxy_Activate" Type="Variable">
+	<Item Name="BNTDAQmx_Set-PWMDelay_0" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -907,10 +1038,338 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMDelay_1" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMDelay_2" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMDelay_3" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMDelayi" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Channel PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Channel PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!#!!A!!!!!!$!!N!#A!&amp;6G&amp;M&gt;75!$5!$!!&gt;$;'&amp;O&lt;G6M!%Q!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B6%&lt;X6C&lt;'5A1WBB&lt;GZF&lt;#"16CZD&gt;'Q!(E"1!!)!!!!"$E2C&lt;#"$;'&amp;O&lt;G6M)&amp;"7!!!"!!)!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMDelayiA" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Array PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Array PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#7EA!!!#!!A!!!!!!%!!N!#A!&amp;6G&amp;M&gt;75!&amp;%"!!!(`````!!!'6G&amp;M&gt;76T!!!21!-!#V.U98*U)%FO:'6Y!%I!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B.%&lt;X6C&lt;'5A18*S98EA5&amp;9O9X2M!"Z!5!!#!!%!!AZ%9GQA1WBB&lt;GZF&lt;#"16A!!!1!$!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMDelays" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!#!!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMLength_0" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMLength_1" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMLength_2" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMLength_3" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMLengthi" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Channel PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Channel PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!#!!A!!!!!!$!!N!#A!&amp;6G&amp;M&gt;75!$5!$!!&gt;$;'&amp;O&lt;G6M!%Q!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B6%&lt;X6C&lt;'5A1WBB&lt;GZF&lt;#"16CZD&gt;'Q!(E"1!!)!!!!"$E2C&lt;#"$;'&amp;O&lt;G6M)&amp;"7!!!"!!)!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMLengthiA" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Array PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Array PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#7EA!!!#!!A!!!!!!%!!N!#A!&amp;6G&amp;M&gt;75!&amp;%"!!!(`````!!!'6G&amp;M&gt;76T!!!21!-!#V.U98*U)%FO:'6Y!%I!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B.%&lt;X6C&lt;'5A18*S98EA5&amp;9O9X2M!"Z!5!!#!!%!!AZ%9GQA1WBB&lt;GZF&lt;#"16A!!!1!$!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMLengths" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!#!!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMRatio_0" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMRatio_1" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMRatio_2" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMRatio_3" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMRatioi" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Channel PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Channel PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!#!!A!!!!!!$!!N!#A!&amp;6G&amp;M&gt;75!$5!$!!&gt;$;'&amp;O&lt;G6M!%Q!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B6%&lt;X6C&lt;'5A1WBB&lt;GZF&lt;#"16CZD&gt;'Q!(E"1!!)!!!!"$E2C&lt;#"$;'&amp;O&lt;G6M)&amp;"7!!!"!!)!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMRatioiA" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">BNT_DAQmx.lvlib:Double Array PV.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../BNT_DAQmx-Typedefs/Double Array PV.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#7EA!!!#!!A!!!!!!%!!N!#A!&amp;6G&amp;M&gt;75!&amp;%"!!!(`````!!!'6G&amp;M&gt;76T!!!21!-!#V.U98*U)%FO:'6Y!%I!]1!!!!!!!!!#$U*/6&amp;^%16&amp;N?#ZM&gt;GRJ9B.%&lt;X6C&lt;'5A18*S98EA5&amp;9O9X2M!"Z!5!!#!!%!!AZ%9GQA1WBB&lt;GZF&lt;#"16A!!!1!$!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmx_Set-PWMRatios" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!#!!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="BNTDAQmxProxy_Activate" Type="Variable">
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#!!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="myDAQProxy_WorkerActor" Type="Variable">
+	<Item Name="BNTDAQmxProxy_WorkerActor" Type="Variable">
 		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
 		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -921,6 +1380,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/CSPP-Template.lvproj/My Computer/BNT/BNT_DAQmx_SV.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#!!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>

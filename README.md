@@ -4,9 +4,9 @@ BNT\_DAQmx extends the CSPP_Core package of the CS++-Project.
 
 It contains a derived classes of CSPP\_DeviceActor
 
-Refer to https://github.com/HB-GSI/CSPP for CS++ project overview, details and documentation.
+Refer to https://git.gsi.de/EE-LV/CSPP for CS++ project overview, details and documentation.
 
-LabVIEW 2017 is the currently used development environment.
+LabVIEW 2020 is the currently used development environment.
 
 Related documents and information
 =================================
@@ -23,6 +23,12 @@ This package can be used as submodule.
 
 - Packages\BNT\BNT_DAQmx:
   - BNT_DAQmx-MCSV
+  - BNT_DAQmx-MCSV-AIAvg
+  - BNT_DAQmx-MCSV-Ctr2Freq
+  - BNT_DAQmx-MCSV-DOPWM
+  - BNT_DAQmx-MCSV-I
+  - BNT_DAQmx-MCSV-RTD
+  - BNT_DAQmx-MCSV-TC
 
 External Dependencies
 ---------------------
